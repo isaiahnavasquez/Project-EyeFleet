@@ -1,0 +1,31 @@
+
+NO MONITORING OF TANK TRUCK MAINTENANCE STATUS
+	Trucks
+	Driver's reports
+	Dispatcher as verifier
+	Mechanic
+
+	Scheduling of Orders is not accurate
+	Not fully verified
+	Will be be more tedious
+	
+NO MONITORING OF TRUCK PART ISSUANCE
+	Tank Truck to be replaced
+	Tank Truck Parts
+	Driver
+	Dispatcher
+	Mechanic (optional)
+	
+	Lack of specifications of the budget expenses for
+	Truck parts Inventory
+	
+	Excessive Request of Truck Parts
+	Frequency of Truck part replacement
+	
+NO INVENTORY CONTROL OF PERSONAL PROTECTIVE EQUIPMENT
+	Driver
+	Equipment Inventory
+	Dispatcher
+	
+	Excessive Request of Equipment Inventory
+	Abusive request of Equipments from Drivers

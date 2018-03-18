@@ -1,0 +1,41 @@
+How do you Load orders in a truck considering its ROUTE?
+
+Are there any factors on how you load a truck easily?
+
+Does a truck really needs to be fully loaded?
+
+Is it possible for a truck to have 2 routes at the same deployment?
+
+What would be the decision if the total trucks available
+are not enough to execute the total order stack?
+
+In the Algorithm, how often do you have instances where drivers are
+interchanged from their assigned trucks?
+
+Does the Algorithm needs to handle the Driver assigned for each truck?
+
+
+-------------------------------------
+We would like to have an actual order stack sample and the
+official step-by-step procedures in deploying orders 
+
+And we would like to know the alternatives from the
+problem factors experienced in the processes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

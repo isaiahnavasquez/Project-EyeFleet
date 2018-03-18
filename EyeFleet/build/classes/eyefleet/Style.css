@@ -1,0 +1,1008 @@
+.table-view *.column-header { 
+-fx-background-color: #cfeef4;
+-fx-alignment: center;
+}
+
+.table-view {
+-fx-border-color: #cfeef4;
+-fx-border-width: 2;
+}
+
+.table-column {
+-fx-font-size: 18px;
+-fx-font-family: "Segoe UI SemiLight";
+-fx-alignment: center;
+}
+
+.table-view:row-selection:constrained-resize .virtual-flow .clipped-container .sheet .table-row-cell:filled:odd .table-column:filled:odd .text {
+	.table-cell { 
+	-fx-font-family: "Segoe UI SemiLight";
+	-fx-font-size: 15px;
+	}
+
+	.text { 
+	-fx-bounds-type: logical_vertical_center;
+	-fx-font-smoothing-type: lcd;
+	}
+	
+	.table-view:row-selection:constrained-resize *.virtual-flow *.clipped-container *.sheet *.table-row-cell:filled:even *.table-column:filled:even *.text { 
+	-fx-font-size: 15px;
+	}
+
+	.table-column { 
+	-fx-font-family: "Segoe UI SemiLight";
+	-fx-font-size: 18px;
+	-fx-alignment: CENTER_LEFT;
+	}
+}
+
+#main_menu_lbl_master_control:hover {
+-fx-background-color: #42b0b8;	
+}
+
+#main_menu_lbl_orders:hover {
+-fx-background-color: #42b0b8;
+}
+
+#main_menu_lbl_maintenance:hover {
+-fx-background-color: #42b0b8;
+}
+
+#main_menu_lbl_notifications:hover {
+-fx-background-color: #42b0b8;
+}
+
+#main_menu_lbl_reports:hover {
+-fx-background-color: #42b0b8;
+}
+
+#main_menu_lbl_exit:hover {
+-fx-background-color: #42b0b8;
+}
+
+#orders_menu_lbl_order_stack:hover {
+-fx-background-color: #42b0b8;
+}
+
+#orders_menu_lbl_on_delivery:hover {
+-fx-background-color: #42b0b8;
+}
+
+#orders_menu_lbl_delivered:hover {
+-fx-background-color: #42b0b8;
+}
+
+#orders_menu_lbl_analyze:hover {
+-fx-background-color: #42b0b8;
+}
+
+#orders_menu_lbl_deploy:hover {
+-fx-background-color: #42b0b8;
+}
+
+#orders_menu_lbl_manual:hover {
+-fx-background-color: #42b0b8;
+}
+
+#maintenance_lbl_status:hover {
+-fx-background-color: #42b0b8;
+}
+
+#maintenance_lbl_replacements:hover {
+-fx-background-color: #42b0b8;
+}
+
+#maintenance_lbl_repair_services:hover {
+-fx-background-color: #42b0b8;
+}
+
+#maintenance_lbl_truck_parts:hover {
+-fx-background-color: #42b0b8;
+}
+
+#maintenance_lbl_equipments:hover {
+-fx-background-color: #42b0b8;
+}
+
+#maintenance_lbl_issuance:hover {
+-fx-background-color: #42b0b8;
+}
+
+#orders_menu_lbl_back {
+-fx-background-radius: 50;
+}
+
+#orders_menu_lbl_back:hover {
+-fx-background-color: #42b0b8;
+}
+
+#maintenance_lbl_back {
+-fx-background-radius: 50;
+}
+
+#maintenance_lbl_back:hover {
+-fx-background-color: #42b0b8;
+}
+
+#main_menu_lbl_lock:hover {
+-fx-background-color: #42b0b8;
+}
+
+#orders_menu_lbl_deployment:hover{
+-fx-background-color: #42b0b8;
+}
+
+#lock_btn_unlock {
+-fx-text-fill:  white;
+-fx-border-color:  white;
+-fx-border-width: 2;
+}
+
+#lock_btn_unlock:hover {
+-fx-background-color: white;
+-fx-text-fill: black;
+}
+
+
+/*---------------------------------------------------------Order Stack*/
+
+#user_account_btn_log_in {
+-fx-text-fill:  white;
+-fx-background-color:  rgb(0,190,230);
+}
+
+#user_account_btn_log_in:hover {
+-fx-text-fill:  rgb(0,190,230);
+-fx-border-color:  white;
+-fx-border-width: 2;
+-fx-background-color: white;
+}
+
+#user_account_btn_cancel{
+-fx-text-fill:  white;
+-fx-border-color:  white;
+-fx-border-width: 2;
+}
+
+#user_account_btn_cancel:hover{
+-fx-text-fill:  rgb(0,190,230);
+}
+
+/*---------------------------------------------------------Order Stack*/
+
+#order_stack_btn_save {
+-fx-text-fill: white;
+-fx-background-color:  #188da7;
+}
+
+#order_stack_btn_edit {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#order_stack_btn_remove {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#order_stack_btn_clear {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#order_stack_btn_clear:hover{
+-fx-text-fill: #188da7;
+}
+
+#order_stack_btn_save:hover {
+-fx-background-color: white;
+-fx-border-color: #188da7;
+-fx-border-width: 2;
+-fx-text-fill: #188da7;
+}
+
+#order_stack_btn_edit:hover {
+-fx-text-fill: #188da7;
+}
+
+#order_stack_btn_remove:hover {
+-fx-text-fill: #188da7;
+}
+
+#order_stack_btn_schedule{
+-fx-text-fill:  rgb(0,190,230);
+}
+
+#order_stack_btn_schedule:hover {
+-fx-text-fill:  black;
+}
+
+/*---------------------------------------------------------On Delivery*/
+
+#orders_menu_lbl_delivered{
+    -fx-text-fill:  white;
+}
+
+#orders_menu_lbl_deploy{
+    -fx-text-fill:  white;
+}
+
+#orders_menu_lbl_order_stack{
+    -fx-text-fill:  white;
+}
+
+#orders_menu_lbl_on_delivery{
+    -fx-text-fill:  white;
+}
+
+#orders_menu_lbl_analyze{
+    -fx-text-fill:  white;
+}
+
+#orders_menu_lbl_manual{
+    -fx-text-fill:  white;
+}
+
+#on_delivery_btn_set_as_delivered {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#on_delivery_btn_set_as_delivered:hover {
+-fx-text-fill:  white;
+-fx-background-color:  #188da7;
+}
+
+/*---------------------------------------------------------Truck Status*/
+
+
+#truck_status_btn_set_as_for_repair {
+-fx-background-color:  #188da7;
+}
+
+#truck_status_btn_set_as_for_repair:hover {
+-fx-text-fill: #188da7;
+-fx-background-color:  white;
+-fx-border-color: #188da7;
+-fx-border-width: 2;
+}
+
+#truck_status_btn_order_load_details {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width:  2;
+}
+
+#truck_status_btn_order_load_details:hover {
+-fx-text-fill: #188da7;;
+}
+
+#truck_status_btn_load_for_orders {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width:  2;
+}
+
+#truck_status_btn_load_for_orders:hover {
+-fx-text-fill: #188da7;
+}
+
+
+/*---------------------------------------------------------Replacements*/
+
+
+#replacements_btn_save{
+-fx-text-fill:  white;
+-fx-background-color:  #188da7;
+}
+
+#replacements_btn_save:hover{
+-fx-text-fill: #188da7;
+-fx-background-color:  white;
+-fx-border-color: #188da7;
+-fx-border-width: 2;
+}
+
+#replacements_btn_set_as_repaired {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#replacements_btn_set_as_repaired:hover {
+-fx-text-fill: #188da7;
+}
+
+/*---------------------------------------------------------Services*/
+
+#services_btn_save {
+-fx-text-fill:  white;
+-fx-background-color:  #188da7;
+}
+
+#services_btn_save:hover {
+-fx-text-fill: #188da7;
+-fx-background-color:  white;
+-fx-border-color: #188da7;
+-fx-border-width: 2;
+}
+
+#services_btn_set_as_repaired {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#services_btn_set_as_repaired:hover {
+-fx-text-fill:  #188da7;
+}
+
+/*---------------------------------------------------------Truck Parts*/
+
+#truck_parts_btn_save {
+-fx-text-fill:  white;
+-fx-background-color:  #188da7;
+}
+
+#truck_parts_btn_save:hover {
+-fx-text-fill: #188da7;
+-fx-background-color:  white;
+-fx-border-color: #188da7;
+-fx-border-width: 2;
+}
+
+/*---------------------------------------------------------Truck Equipments*/
+
+#equipment_btn_save {
+-fx-text-fill:  white;
+-fx-background-color:  #188da7;
+}
+
+#equipment_btn_save:hover {
+-fx-text-fill: #188da7;
+-fx-background-color:  white;
+-fx-border-color: #188da7;
+-fx-border-width: 2;
+}
+
+#equipment_btn_issue {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#equipment_btn_issue:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#issuance_btn_issue {
+-fx-text-fill:  white;
+-fx-background-color:  #188da7;
+}
+
+#issuance_btn_issue:hover {
+-fx-text-fill: #188da7;
+-fx-background-color:  white;
+-fx-border-color: #188da7;
+-fx-border-width: 2;
+}
+
+/*---------------------------------------------------------Orders Manual*/
+
+
+#manual_btn_see_deployment {
+-fx-text-fill:  white;
+-fx-background-color:  #188da7;
+}
+
+#manual_btn_see_deployment:hover{
+-fx-text-fill: #188da7;
+-fx-background-color:  white;
+-fx-border-color: #188da7;
+-fx-border-width: 2;
+}
+
+#manual_btn_refresh {
+-fx-text-fill: black;
+-fx-border-color: red;
+-fx-border-width: 2;
+}
+
+#manual_btn_refresh:hover {
+-fx-text-fill: red;
+}
+
+#manual_ot_btn_load {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;	
+}
+
+#manual_ot_btn_load:hover {
+-fx-text-fill:  #188da7;
+}
+
+#manual_ot_btn_unload {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;	
+}
+
+#manual_ot_btn_unload:hover {
+-fx-text-fill:  #188da7;
+}
+
+#manual_tp_btn_load {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;	
+}
+
+#manual_tp_btn_load:hover {
+-fx-text-fill:  #188da7;
+}
+
+#manual_tp_btn_unload {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;	
+}
+
+#manual_tp_btn_unload:hover {
+-fx-text-fill:  #188da7;
+}
+
+/*---------------------------------------------------------Orders Deployment*/
+
+#deployment_btn_cancel_deployment {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#deployment_btn_cancel_deployment:hover {
+-fx-text-fill:  #188da7;
+}
+
+#deployment_btn_save_details {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#deployment_btn_save_details:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#deployment_btn_print {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#deployment_btn_print:hover {
+-fx-text-fill:  #188da7;
+}
+
+#deployment_btn_orders_deployed {
+-fx-text-fill:  white;
+-fx-background-color:  #188da7;
+}
+
+#deployment_btn_orders_deployed:hover {
+-fx-text-fill: #188da7;
+-fx-background-color:  white;
+-fx-border-color: #188da7;
+-fx-border-width: 2;
+}
+
+
+/*---------------------------------------------------------Delivered Orders*/
+
+#delivered_orders_btn_delivery_of_the_day {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#delivered_orders_btn_delivery_of_the_day:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+/*--------------------------------------------------Status Reports*/
+
+#status_reports_pnl_menu_lbl_truck_transactions:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#mc_pnl_menu {
+	-fx-background-color: #42b0b8;	
+}
+
+#status_reports_pnl_menu_lbl_truck_consumption:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_lbl_truck_replacements:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_lbl_truck_services:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_lbl_truck_profile_details:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_lbl_truck_licenses:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_lbl_driver_deliveries:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_lbl_driver_offences:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_lbl_driver_equipments:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_lbl_driver_profile_details:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_lbl_driver_licenses:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_pnl_menu_back {
+    -fx-background-radius: 50;
+}
+
+#status_reports_pnl_menu_back:hover {
+    -fx-background-color: #42b0b8;
+}
+
+#status_reports_cbo_id {
+	-fx-background-color: white;
+	-fx-font-size: 30;
+	-fx-font-family: 'Segoe UI Light';
+}
+
+
+
+/*-------------------------------------------------------------------- Messages*/
+
+#message_btn_okay:hover {
+	-fx-background-color: white;
+	-fx-text-fill:  #5FC7C7;
+}
+
+
+/*-------------------------------------------------------------------- Order Stack*/
+
+#manual_ct_btn_load {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#manual_ct_btn_load:hover {
+-fx-text-fill:  #188da7;
+}	
+
+
+#manual_ct_btn_unload {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#manual_ct_btn_unload:hover {
+-fx-text-fill:  #188da7;
+}
+
+#manual_ct_btn_proceed {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#manual_ct_btn_proceed:hover {
+-fx-text-fill:  #188da7;
+}	
+
+#manual_ct_btn_restart {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#manual_ct_btn_restart:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+
+
+#manual_op_btn_load {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#manual_op_btn_load:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#manual_op_btn_unload {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#manual_op_btn_unload:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#manual_op_btn_proceed {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#manual_op_btn_proceed:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#manual_op_btn_restart {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#manual_op_btn_restart:hover {
+-fx-text-fill:  #188da7;
+}	
+
+
+#manual_btn_cancel_analysis {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#manual_btn_cancel_analysis:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+/*----------------------------------------MC Trucks*/
+
+
+
+
+
+#mc_status_btn_save {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_status_btn_save:hover {
+-fx-text-fill:  #188da7;
+}
+
+#mc_status_btn_edit {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_status_btn_edit:hover {
+-fx-text-fill:  #188da7;
+}
+
+#mc_partition_btn_save {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_partition_btn_save:hover {
+-fx-text-fill:  #188da7;
+}
+
+#mc_partition_btn_save {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_partition_btn_save:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+/*------------------------------------------------------------MC Truck Part Replacement*/
+
+
+
+
+
+
+
+
+
+#mc_replacements_btn_filter_by_month {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_replacements_btn_filter_by_month:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#mc_replacements_btn_filter_by_range {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_replacements_btn_filter_by_range:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#mc_replacements_btn_No_filter_by_range {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_replacements_btn_No_filter_by_range:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+
+#mc_replacement_btn_edit {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_replacement_btn_edit:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+
+#mc_replacement_btn_delete {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_replacement_btn_delete:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+
+#mc_replacement_btn_save {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_replacement_btn_save:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+/*--------------------------------MC REPAIR SERVICES*/
+
+
+
+
+
+
+
+
+
+
+
+#mc_repairservices_btn_filterby_month_filter {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_repairservices_btn_filterby_month_filter:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#mc_repairservices_btn_filter_by_range {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_repairservices_btn_filter_by_range:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#mc_repairservices_btn_No_filter_by_range {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_repairservices_btn_No_filter_by_range:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+
+#mc_repairservices_btn_save {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_repairservices_btn_save:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+
+#mc_repairservices_btn_edit {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_repairservices_btn_edit:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#mc_repairservices_btn_delete {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_repairservices_btn_delete:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+
+
+
+/*------------------------------------MC TRUCK PARTS*/
+
+
+#mc_truck_parts_btn_save {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_truck_parts_btn_save:hover {
+-fx-text-fill:  #188da7;
+}
+
+#mc_truck_parts_btn_edit {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_truck_parts_btn_edit:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#mc_truck_parts_btn_delete {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_truck_parts_btn_delete:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+
+
+/*------------------------------------------MC PPE*/
+
+
+
+
+
+
+#mc_protectice_equipment_btn_filterby_month_filter {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_protectice_equipment_btn_filterby_month_filter:hover {
+-fx-text-fill:  #188da7;
+}
+
+#mc_protectice_equipment_btn_filter_by_range_filter {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_protectice_equipment_btn_filter_by_range_filter:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#mc_protectice_equipment_btn_No_filter_by_range {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_protectice_equipment_btn_No_filter_by_range:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#mc_protective_equipment_btn_save {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_protectice_equipment_btn_No_filter_by_range:hover {
+-fx-text-fill:  #188da7;
+}
+
+#mc_protective_equipment_btn_edit {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_protective_equipment_btn_edit:hover {
+-fx-text-fill:  #188da7;
+}
+
+
+#mc_protective_equipment_btn_delete {
+-fx-text-fill:  #5a5a5a;
+-fx-border-color:  #188da7;
+-fx-border-width: 2;
+}
+
+#mc_protective_equipment_btn_delete:hover {
+-fx-text-fill:  #188da7;
+}

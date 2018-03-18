@@ -1,0 +1,56 @@
+*list of all truck parts
+N/A
+
+*list of all equipment
+N/A
+
+*validity of each equipment [refer to the days an item issuance will expire]
+N/A
+
+*number of driver(profile if necessary]
+9 drivers	
+driver profile needed.
+(refer to drivers license excel file)
+
+
+
+*How long can a driver mechanic fix a truck?
+Specify by replacement or service only
+
+depends on the parts.
+minor - maximum of 1-2 days.
+
+
+*reports
+
+
+Trucks:
+
+History of trucks and transactions(week, month, year)
+Sorted or range by.
+Kilometers driven
+Customer
+Location
+Consumption (Fuel per truck)  
+- for truck comparisons(wheels and fuel used)
+- Specific location of parts replaced/repair
+
+Drivers:
+
+history of offences-disciplinary/action taken(3days suspension, plate number invalidation (records))
+incident description
+Investigation details
+Solution of the incident
+drivers equipment - 
+	
+
+
+*accountability
+user pass required.
+Prevous user and current user
+date and time user used the program.
+
+
+daily weekly monthly and yearly check up
+Daily = minor parts
+weekly - yearly = major parts check up

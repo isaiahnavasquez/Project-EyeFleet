@@ -1,0 +1,63 @@
+-DRIVERS OFFENCES-
+
+In the drivers' offences module for reports, the module will only accept data
+regarding the offence details:
+	incident description - text only
+	investigation details - text only
+	solution of the incident - text only
+	action taken - text only
+	suspension days - number of days
+	plate number - number
+
+
+	
+	
+-DRIVERS HISTORY OF TRANSACTIONS REPORT-
+
+This Module shows the time-frame of the transactions (orders delivered) with the
+following sections: 
+
+	orders delivered: shows the details of the orders he delivered
+	probably by a table with each order detail.
+	
+	total kilometers driven: show the total kilometers driven of a driver
+	according to the total orders he delivered.
+	
+Clarifications:
+
+	Since the module will only display data reports stated above, its source
+	will be based on the delivered orders. From the delivery and the order
+	deployment section, we will keep the records based from the individual
+	counting of order deliveries from the truck's counter, from initial(deployment)
+	to final(delivered), NOT AT THE END OF THE DAY.
+
+	And in the Delivery, we will recommend to record the driver assigned in the truck
+	since there are instances of drivers - trucks assignation interchange.
+
+
+
+-INVENTORY OF TRUCK PARTS-
+
+We would like to know if there an instance where there are multiple truck parts being
+replaced at the same time.
+
+
+
+-TRUCKS REPORT-
+
+This module will display all of the reports from the trucks according to
+specified sections below:
+
+	history of truck transactions: this will display the list of orders
+	with specified details in a time-frame.
+
+	kilometers driven: shows the total kilometers driven based from the
+	orders deployment section (delivered orders with kilometers driven).
+	
+	Consumption: not specified, how can we record the data of truck's fuel
+	consumption? Do we have to add a data for the delivered order details?
+	Or will it be based from the kilometers driven of a truck processed
+	by a formula to know the measure of quantity the truck has consumed.
+	
+	specific location of truck parts replacements: this section will show the 
+	replacements of the certain truck.
